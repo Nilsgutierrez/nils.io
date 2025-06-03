@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>POLERAS</title>
+  <link rel="icon" href="img/5logo-luis.png">
+  <link rel="stylesheet" type="text/css" href="css/estilos.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Zen+Dots&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=arrow_right_alt" />
+<script src="https://kit.fontawesome.com/69168a16df.js" crossorigin="anonymous"></script>
+<link rel="stylesheet" type="text/css" href="css/tienda.css">
+ <link rel="stylesheet" type="text/css" href="css/pie.css">
+</head>
+  <body style="margin-left: 0px;">
+    <header>
+          <div class="interior">
+      <a href="index.html" class="logo" target="blank"><img src="img/logo-sinmarca.png" alt="Logo"></a>
+      <nav class="navegacion">
+        <ul>
+          <li><a href="index.html" target="blank">Inicio</a></li>
+          <li><a href="info.html" target="blank">Acerca de</a></li>
+            <li class="submenu">
+            <a href="tienda.html" target="blank"><i class="fa-solid fa-cart-shopping"></i></a>
+            <ul class="hijos">
+              <li><a href="tazas.html"><i class="fa-solid fa-mug-hot"></i></a></li>
+              <li><a href="bolsa.html"><i class="fa-solid fa-mattress-pillow"></i></a></li>
+              <li><a href="posters.html"><i class="fa-regular fa-image"></i></a></li>
+            </ul>
+          </li>          <li class="submenu">
+            <a href="Contacto.html" target="blank">Contacto</a>
+            <ul class="hijos">
+              <li><a href="https://api.whatsapp.com/send?phone=75257609" target="blank"><i class="fa-solid fa-circle-user"></i><br>Luis</a></li>
+              <li><a href="https://api.whatsapp.com/send?phone=77133837" target="blank"><i class="fa-solid fa-circle-user"></i><br>Nils</a></li>
+              <li><a href="https://api.whatsapp.com/send?phone=60106229" target="blank"><i class="fa-solid fa-circle-user"></i><br>Cristian</a></li>
+              <li><a href="https://api.whatsapp.com/send?phone=69724930" target="blank"><i class="fa-solid fa-circle-user"></i><br>Brian</a></li>
+            </ul>
+          </li>          <li><a href="inicio.html" target="blank">Login</a></li>
+        </ul>
+      </nav>
+    </div>
+      <div class="container-icon">
+        <div class="container-cart-icon">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke-width="1.5"
+            stroke="currentColor"
+            class="icon-cart"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              d="M15.75 10.5V6a3.75 3.75 0 10-7.5 0v4.5m11.356-1.993l1.263 12c.07.665-.45 1.243-1.119 1.243H4.25a1.125 1.125 0 01-1.12-1.243l1.264-12A1.125 1.125 0 015.513 7.5h12.974c.576 0 1.059.435 1.119 1.007zM8.625 10.5a.375.375 0 11-.75 0 .375.375 0 01.75 0zm7.5 0a.375.375 0 11-.75 0 .375.375 0 01.75 0z"
+            />
+          </svg>
+          <div class="count-products">
+            <span id="contador-productos">0</span>
+          </div>
+        </div>
+
+        <div class="container-cart-products hidden-cart">
+          <div class="row-product hidden">
+            <div class="cart-product">
+              <div class="info-cart-product">
+                <span class="cantidad-producto-carrito"></span>
+                <p class="titulo-producto-carrito"></p>
+                <span class="precio-producto-carrito"></span>
+              </div>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke-width="1.5"
+                stroke="currentColor"
+                class="icon-close"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  d="M6 18L18 6M6 6l12 12"
+                />
+              </svg>
+            </div>
+          </div>
+
+          <div class="cart-total hidden">
+            <h3>Total:</h3>
+            <span class="total-pagar"></span>
+          </div>
+          <p class="cart-empty">El carrito está vacío</p>
+        </div>
+      </div>
+    </header>
+    <br><br><br><br><br><br>
+    <div class="container-items" style="width: 1343px;">
+      <div class="item">
+        <figure>
+          <img
+            src="img/polera (1).png"
+            alt="producto"
+          />
+        </figure>
+        <div class="info-product">
+          <h2 class="titull">Polera de Goku Ultra Instinto</h2>
+          <p class="price">$35</p>
+          <button class="btn-add-cart">Añadir al carrito</button>
+        </div>
+      </div>
+      <div class="item">
+        <figure>
+          <img
+            src="img/polera (2).png"
+            alt="producto"
+          />
+        </figure>
+        <div class="info-product">
+          <h2 class="titull">Polera de Overlord</h2>
+          <p class="price">$35</p>
+          <button class="btn-add-cart">Añadir al carrito</button>
+        </div>
+      </div>
+      <div class="item">
+        <figure>
+          <img
+            src="img/polera (3).png"
+            alt="producto"
+          />
+        </figure>
+        <div class="info-product">
+          <h2 class="titull">Polera de Pokemon</h2>
+          <p class="price">$35</p>
+          <button class="btn-add-cart">Añadir al carrito</button>
+        </div>
+      </div>
+      <div class="item">
+        <figure>
+          <img
+            src="img/polera (4).png"
+            alt="producto"
+          />
+        </figure>
+        <div class="info-product">
+          <h2 class="titull">Polera de Yu Gi oh</h2>
+          <p class="price">$35</p>
+          <button class="btn-add-cart">Añadir al carrito</button>
+        </div>
+      </div>
+    </div>
+    <script src="js/index.js"></script>
+    <footer class="pie-pagina" style="width: 1343px;">
+        <div class="grupo-1">
+            <div class="box">
+                <figure>
+                    <a href="#">
+                        <img src="img/logo-sinmarca.png" alt="Logo de SLee Dw">
+                    </a>
+                </figure>
+            </div>
+            <div class="box">
+                <h2>SOBRE NOSOTROS</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio, ipsa?</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio, ipsa?</p>
+            </div>
+            <div class="box">
+                <h2>SIGUENOS</h2>
+                <div class="red-social">
+                    <a href="#" class="fa fa-facebook"></a>
+                    <a href="#" class="fa fa-instagram"></a>
+                    <a href="#" class="fa fa-twitter"></a>
+                    <a href="#" class="fa fa-youtube"></a>
+                </div>
+            </div>
+        </div>
+        <div class="grupo-2">
+            <small>&copy; 2021 <b>SLee Dw</b> - Todos los Derechos Reservados.</small>
+        </div>
+    </footer>
+  </body>
+  </html>
